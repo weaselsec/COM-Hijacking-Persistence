@@ -1,6 +1,7 @@
 # COM-Hijacking-Persistence
 
 Show COM CLSIDs:
+'''
 $Tasks = Get-ScheduledTask
 
 foreach ($Task in $Tasks)
@@ -22,7 +23,7 @@ foreach ($Task in $Tasks)
     }
   }
 }
-
+'''
 
 CacheTask:
 New-Item -Path "HKCU:Software\Classes\CLSID" -Name "{0358B920-0AC7-461F-98F4-58E32CD89148}"
