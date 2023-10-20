@@ -1,5 +1,5 @@
 # COM-Hijacking-Persistence
-
+//taken from https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation/com-hijacking
 Show COM CLSIDs:
 ```
 $Tasks = Get-ScheduledTask
